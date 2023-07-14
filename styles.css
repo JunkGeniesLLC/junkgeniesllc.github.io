@@ -23,6 +23,14 @@ main {
   padding: 20px;
   background-color: #fff;
   text-align: center; /* Add text alignment */
+  border-radius: 10px; /* Add border-radius for rounded corners */
+}
+
+/* CSS for smaller screens (e.g., mobile) */
+@media (max-width: 600px) {
+  main {
+    padding: 20px 10px; /* Adjust the padding as needed */
+  }
 }
 
 .main-text {
