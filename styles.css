@@ -26,7 +26,10 @@ main {
 }
 
 .main-text {
-  margin-top: 0; /* Remove the default margin for the h2 element */
+  margin-top: 0;
+  font-family: "Arial Black", sans-serif; /* Change the font family to a cooler font */
+  color: #000000; /* Use a contrasting color (e.g., red) */
+  font-size: 28px;
 }
 
 .tab {
