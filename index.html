@@ -1,59 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <title>Junk Genies LLC - Junk Removal Experts</title>
 </head>
+
 <body>
-    <header>
-        <div class="header-content">
-          <img src="genie.jpg" alt="Junk Genies LLC Logo" class="logo logo-left">
-          <h1>Junk Genies</h1>
-          <img src="genie.jpg" alt="Junk Genies LLC Logo" class="logo logo-right">
+  <header>
+    <div class="logo-container">
+      <img src="junkgenienamelogo.jpg" alt="Junk Genies LLC Logo" class="logo">
+    </div>
+  </header>
+
+  <div class="content-container">
+    <main>
+      <h2 class="main-text">🚛💼 Junk Genies LLC is Open for Business! 🚛💼</h2>
+      <div class="tab">
+        <button class="tablinks active" onclick="openTab(event, 'about')">About Us</button>
+        <button class="tablinks" onclick="openTab(event, 'choose')">Why Choose Us</button>
+        <button class="tablinks" onclick="openTab(event, 'contact')">Contact</button>
+      </div>
+
+      <div id="about" class="tabcontent">
+        <h2>About Us</h2>
+        <p>Are you drowning in junk and clutter? Don't worry because Junk Genies LLC is here to save the day! We're thrilled to announce that we're officially open and ready to tackle all your junk removal needs. With our dedicated team and years of experience, we provide exceptional junk removal services throughout the Philadelphia area. Whether you need to declutter your home, clean out your office space, or get rid of construction debris, we've got you covered. Trust the Junk Genies to turn your messy space into a clean and organized environment!</p>      </div>
+
+      <div id="choose" class="tabcontent">
+        <h2>Why Choose Us?</h2>
+        <ul>
+          <li>
+            <strong>Prompt Service:</strong> Need that unwanted stuff gone fast? Our team is at your service, offering prompt and efficient junk removal to reclaim your space and restore your peace of mind.
+          </li>
+          <li>
+            <strong>Responsible Disposal:</strong> We believe in doing our part for the environment. When you choose Junk Genies LLC, you can trust that we'll handle your items responsibly, recycling and donating whenever possible.
+          </li>
+          <li>
+            <strong>Competitive Rates:</strong> Clearing out clutter shouldn't break the bank. We offer competitive rates and transparent pricing, ensuring you receive exceptional value for our top-quality services.
+          </li>
+        </ul>
+      </div>
+
+      <div id="contact" class="tabcontent">
+        <h2>Contact</h2>
+        <p>📞 Call us at <a href="tel:215-706-9191">215-706-9191</a> to schedule your appointment and say goodbye to the mess today!</p>
+        <p>Let us be your go-to junk removal experts. Say farewell to clutter and hello to a clean and spacious environment.</p>
+        <div class="contact-buttons">
+          <a href="tel:215-706-9191" class="button button-phone">
+            <img src="phone-icon.png" alt="Phone Icon" class="button-icon">
+            <span>Call Now</span>
+          </a>
+          <a href="mailto:akaraboyas@junkgeniesllc.com" class="button button-email">
+            <img src="email-icon.png" alt="Email Icon" class="button-icon">
+            <span>Email Us</span>
+          </a>
         </div>
-        <h2>🚛💼 Junk Genies LLC is Open for Business! 🚛💼</h2>
-      </header>
-  
-  <main>
-    <div class="tab">
-      <button class="tablinks active" onclick="openTab(event, 'about')">About Us</button>
-      <button class="tablinks" onclick="openTab(event, 'choose')">Why Choose Us</button>
-      <button class="tablinks" onclick="openTab(event, 'contact')">Contact</button>
-    </div>
-    
-    <div id="about" class="tabcontent">
-      <h2>About Us</h2>
-      <p>Are you drowning in junk and clutter? Don't worry, because Junk Genies LLC is here to save the day! We're thrilled to announce that we're officially open and ready to tackle all your junk removal needs.</p>
-    </div>
-    
-    <div id="choose" class="tabcontent">
-      <h2>Why Choose Us?</h2>
-      <ul>
-        <li>
-          <strong>Prompt Service:</strong> Need that unwanted stuff gone fast? Our team is at your service, offering prompt and efficient junk removal to reclaim your space and restore your peace of mind.
-        </li>
-        <li>
-          <strong>Responsible Disposal:</strong> We believe in doing our part for the environment. When you choose Junk Genies LLC, you can trust that we'll handle your items responsibly, recycling and donating whenever possible.
-        </li>
-        <li>
-          <strong>Competitive Rates:</strong> Clearing out clutter shouldn't break the bank. We offer competitive rates and transparent pricing, ensuring you receive exceptional value for our top-quality services.
-        </li>
-      </ul>
-    </div>
-    
-    <div id="contact" class="tabcontent">
-      <h2>Contact</h2>
-      <p>📞 Call us at <a href="tel:215-706-9191">215-706-9191</a> to schedule your appointment and say goodbye to the mess today!</p>
-      <p>Let us be your go-to junk removal experts. Say farewell to clutter and hello to a clean and spacious environment. Contact Junk Genies LLC at <a href="tel:215-706-9191">215-706-9191</a> or visit our <a href="https://www.facebook.com/junkgeniesllc">Facebook page</a> and leave us a message.</p>
-    </div>
-  </main>
-  
+      </div>
+    </main>
+  </div>
+
   <footer>
     <p>&copy; 2023 Junk Genies LLC. All rights reserved.</p>
   </footer>
-  
+
   <script src="script.js"></script>
 </body>
+
 </html>
