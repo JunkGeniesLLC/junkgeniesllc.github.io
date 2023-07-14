@@ -27,7 +27,7 @@ main {
 }
 
 /* CSS for smaller screens (e.g., mobile) */
-@media (max-width: 600px) {
+@media (max-width: 400px) {
   main {
     padding: 20px 10px; /* Adjust the padding as needed */
   }
