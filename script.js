@@ -14,7 +14,7 @@ function openTab(evt, tabName) {
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " active";
 
-  if (tabName === "choose") {
+  if (tabName === "services") {
     document.body.style.backgroundImage = "url(stockjunk2.jpg)";
   } else if (tabName === "contact") {
     document.body.style.backgroundImage = "url(genie_small.jpg)";

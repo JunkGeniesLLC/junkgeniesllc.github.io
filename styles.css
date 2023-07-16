@@ -178,3 +178,17 @@ footer {
   border-radius: 10px; /* Add border-radius for rounded corners */
 }
 
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  margin-top: 50px; /* Increase the margin-top value for a larger gap */
+  position: fixed;
+  bottom: 0;
+  clear: both;
+}
+
+footer p {
+  margin-bottom: 5px; /* Adjust the margin-bottom value for the desired gap */
+}

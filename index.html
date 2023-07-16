@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
@@ -20,7 +21,7 @@
       <h2 class="main-text">🚛💼 Junk Genies LLC is Open for Business! 🚛💼</h2>
       <div class="tab">
         <button class="tablinks active" onclick="openTab(event, 'about')">About Us</button>
-        <button class="tablinks" onclick="openTab(event, 'choose')">Why Choose Us</button>
+        <button class="tablinks" onclick="openTab(event, 'services')">Services</button>
         <button class="tablinks" onclick="openTab(event, 'contact')">Contact</button>
       </div>
 
@@ -28,20 +29,33 @@
         <h2>About Us</h2>
         <p>Are you drowning in junk and clutter? Don't worry because Junk Genies LLC is here to save the day! We're thrilled to announce that we're officially open and ready to tackle all your junk removal needs. With our dedicated team and years of experience, we provide exceptional junk removal services throughout the Philadelphia area. Whether you need to declutter your home, clean out your office space, or get rid of construction debris, we've got you covered. Trust the Junk Genies to turn your messy space into a clean and organized environment!</p>      </div>
 
-      <div id="choose" class="tabcontent">
-        <h2>Why Choose Us?</h2>
-        <ul>
-          <li>
-            <strong>Prompt Service:</strong> Need that unwanted stuff gone fast? Our team is at your service, offering prompt and efficient junk removal to reclaim your space and restore your peace of mind.
-          </li>
-          <li>
-            <strong>Responsible Disposal:</strong> We believe in doing our part for the environment. When you choose Junk Genies LLC, you can trust that we'll handle your items responsibly, recycling and donating whenever possible.
-          </li>
-          <li>
-            <strong>Competitive Rates:</strong> Clearing out clutter shouldn't break the bank. We offer competitive rates and transparent pricing, ensuring you receive exceptional value for our top-quality services.
-          </li>
-        </ul>
-      </div>
+        <div id="services" class="tabcontent">
+          <h2>Our Services</h2>
+          <ul>
+            <li>
+              <strong>Residential Junk Removal:</strong> Clearing out junk from homes, including basements, garages, and more.
+            </li>
+            <li>
+              <strong>Commercial Junk Removal:</strong> Removing unwanted items from offices, retail spaces, construction sites.
+            </li>
+            <li>
+              <strong>Appliance and Furniture Removal:</strong> Hauling away old appliances, furniture, mattresses, and bulky items.
+            </li>
+            <li>
+              <strong>Estate Cleanouts:</strong> Assisting with estate cleanouts and junk removal during life transitions.
+            </li>
+            <li>
+              <strong>Construction Debris Removal:</strong> Removing debris, rubble, and construction waste from renovations.
+            </li>
+            <li>
+              <strong>Yard Waste Removal:</strong> Clearing out leaves, branches, grass clippings, and other yard waste.
+            </li>
+            <li>
+              <strong>Hoarding Cleanouts:</strong> Helping individuals with hoarding situations by providing compassionate and thorough cleanout services.
+            </li>
+          </ul>
+        </div>
+        
 
       <div id="contact" class="tabcontent">
         <h2>Contact</h2>
@@ -61,8 +75,11 @@
   </div>
 
   <footer>
-    <p>&copy; 2023 Junk Genies LLC. All rights reserved.</p>
+    <div class="copyright">
+      <p>&copy; 2023 Junk Genies LLC. All rights reserved.</p>
+    </div>
   </footer>
+  
 
   <script src="script.js"></script>
 </body>
