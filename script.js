@@ -15,11 +15,11 @@ function openTab(evt, tabName) {
   evt.currentTarget.className += " active";
 
   if (tabName === "services") {
-    document.body.style.backgroundImage = "url(stockjunk2.jpg)";
+    document.body.style.backgroundImage = "url(res/stockjunk2.jpg)";
   } else if (tabName === "contact") {
-    document.body.style.backgroundImage = "url(genie_small.jpg)";
+    document.body.style.backgroundImage = "url(res/genie_small.jpg)";
   } else {
-    document.body.style.backgroundImage = "url(stockjunk1.jpg)";
+    document.body.style.backgroundImage = "url(res/stockjunk1.jpg)";
   }
 }
 
